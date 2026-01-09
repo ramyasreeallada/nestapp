@@ -1,0 +1,42 @@
+<nav class="bg-gray-50 border-b border-gray-200">
+  <div class="max-w-7xl mx-auto px-6 py-3">
+    <ol class="flex items-center space-x-2 text-sm text-gray-600">
+      
+      <!-- Home -->
+      <li class="flex items-center">
+        <a href="/" class="text-blue-600 hover:underline font-medium">
+          Home
+        </a>
+      </li>
+
+      <li class="flex items-center">
+        <svg class="w-4 h-4 mx-2 text-gray-400" fill="none" stroke="currentColor"
+          viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M9 5l7 7-7 7" />
+        </svg>
+      </li>
+
+      <!-- Section -->
+      <li class="flex items-center">
+        <a href="/tasks" class="text-blue-600 hover:underline font-medium">
+          Tasks
+        </a>
+      </li>
+
+      <li class="flex items-center">
+        <svg class="w-4 h-4 mx-2 text-gray-400" fill="none" stroke="currentColor"
+          viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M9 5l7 7-7 7" />
+        </svg>
+      </li>
+
+      <!-- Current Page -->
+      <li class="text-gray-800 font-semibold">
+        {{currentPage}}
+      </li>
+
+    </ol>
+  </div>
+</nav>
