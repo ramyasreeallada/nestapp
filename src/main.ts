@@ -100,6 +100,7 @@ async function bootstrap() {
   // in main.ts after setViewEngine
   hbs.registerPartials(join(__dirname, '..', 'views', 'partials'));
 
-  await app.listen(3002);
+  //await app.listen(3002);
+  await app.listen(3002, '0.0.0.0');
 }
 bootstrap();
